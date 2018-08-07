@@ -1,0 +1,31 @@
+{
+  "name": "parse_css_in_js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chalecao/parse_css_in_js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chalecao/parse_css_in_js/issues"
+  },
+  "homepage": "https://github.com/chalecao/parse_css_in_js#readme",
+  "dependencies": {
+    "babel-generator": "^6.26.1",
+    "babel-traverse": "^6.26.0",
+    "babylon": "^6.18.0",
+    "esprima": "^4.0.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-types": "^6.26.0",
+    "escodegen": "^1.11.0",
+    "estraverse": "^4.2.0"
+  }
+}
