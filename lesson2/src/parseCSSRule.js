@@ -30,6 +30,9 @@ let css = `
     body {
         background-color:lightblue;
     }
+    10.01%,20% {
+      background-position-y: -23px
+    }
   }
 `
 // console.log(css)
@@ -48,7 +51,7 @@ function getMatchedRules(cssTxt) {
   let matchRule = {};
   let rules = [];
   while ((matchRule = cssGramaRule.exec(cssTxt))) {
-    
+
     if (matchRule[1].match("@")) {
       let styleTxt = matchRule[2].trim() + "}";
       rule = {

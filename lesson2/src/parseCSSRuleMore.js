@@ -30,6 +30,9 @@ let css = `
     body {
         background-color:lightblue;
     }
+    10% {
+      background-color:lightblue;
+    }
   }
 
   @keyframes mymove { from {top:0px;} to {top:200px;} } 
